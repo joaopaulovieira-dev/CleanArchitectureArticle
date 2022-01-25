@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "CxztkBTWCvxRT1PVZsiG2ToltgxVjX+OvCRsPctsXeTEzr/YvNw0v9MY03Sv1p7SjRU3X04uskub6l5LSs2Qgw==",
+  "dgSpecHash": "lqQ2XyjpqOO//OgNCPKN+t8vV4Khw9hFeS9dwJSwAUni82bTWie/c1pEKJJEkskMtqCqijcN/lL6ULNAXl2t0g==",
   "success": true,
-  "projectFilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
+  "projectFilePath": "C:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
