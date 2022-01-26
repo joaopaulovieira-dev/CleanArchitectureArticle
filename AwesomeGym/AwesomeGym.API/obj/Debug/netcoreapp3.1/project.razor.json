@@ -14400,42 +14400,6 @@
     "CSharpLanguageVersion": 800
   },
   "RootNamespace": "AwesomeGym.API",
-  "Documents": [
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\Shared\\_Layout.cshtml",
-      "TargetPath": "Pages\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\Privacy.cshtml",
-      "TargetPath": "Pages\\Privacy.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\_ViewStart.cshtml",
-      "TargetPath": "Pages\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\Index.cshtml",
-      "TargetPath": "Pages\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "TargetPath": "Pages\\Shared\\_ValidationScriptsPartial.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\_ViewImports.cshtml",
-      "TargetPath": "Pages\\_ViewImports.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.API\\Pages\\Error.cshtml",
-      "TargetPath": "Pages\\Error.cshtml",
-      "FileKind": "mvc"
-    }
-  ],
+  "Documents": [],
   "SerializationFormat": "0.2"
 }

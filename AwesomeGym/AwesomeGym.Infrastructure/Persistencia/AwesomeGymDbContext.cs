@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace AwesomeGym.Infrastructure.Persistencia
+namespace AwesomeGym.Infrastructure.Persistence
 {
-    class AwesomeGymDbContext
+    public class AwesomeGymDbContext
     {
     }
 }

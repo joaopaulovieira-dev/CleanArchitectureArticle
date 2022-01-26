@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    ".NETCoreApp,Version=v3.1": {}
+    ".NETCoreApp,Version=v3.1": {
+      "AwesomeGym.Core/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v3.1",
+        "compile": {
+          "bin/placeholder/AwesomeGym.Core.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AwesomeGym.Core.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "AwesomeGym.Core/1.0.0": {
+      "type": "project",
+      "path": "../AwesomeGym.Core/AwesomeGym.Core.csproj",
+      "msbuildProject": "../AwesomeGym.Core/AwesomeGym.Core.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    ".NETCoreApp,Version=v3.1": []
+    ".NETCoreApp,Version=v3.1": [
+      "AwesomeGym.Core >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\joao.pereira\\.nuget\\packages\\": {},
@@ -14,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
+      "projectUniqueName": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
       "projectName": "AwesomeGym.Infrastructure",
-      "projectPath": "C:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
+      "projectPath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\AwesomeGym.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\joao.pereira\\.nuget\\packages\\",
-      "outputPath": "C:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\obj\\",
+      "outputPath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -38,7 +57,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
-          "projectReferences": {}
+          "projectReferences": {
+            "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj": {
+              "projectPath": "c:\\development\\CleanArchitectureArticle\\AwesomeGym\\AwesomeGym.Core\\AwesomeGym.Core.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

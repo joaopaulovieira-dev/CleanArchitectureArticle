@@ -1,10 +1,15 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
+﻿using AwesomeGym.Core.DTOs;
+using AwesomeGym.Core.Interfaces.Servicos;
+using System;
+using System.Threading.Tasks;
 
 namespace AwesomeGym.Infrastructure.Servicos
 {
-    class MyErpIntegrationService
+    public class MyErpIntegrationService : IErpIntegrationService
     {
+        public Task AdicionarPessoa(AdicionarPessoaErpDTO pessoa)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
